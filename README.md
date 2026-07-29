@@ -1,21 +1,21 @@
 <div align="center">
 
 <!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=1000&color=F7F7F7&center=true&vCenter=true&random=false&width=600&height=60&lines=Hey+there!+I'm+Huzaib+%F0%9F%91%8B;Catalyst+%E2%9A%A1;Data+Science+%7C+AI+%2F+ML;Building+the+Future+with+Code)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=3000&pause=1000&color=F7F7F7&center=true&vCenter=true&random=false&width=600&height=60&lines=Huzaib+Wadoo;Catalyst;Data+Science+%7C+AI+%2F+ML)](https://git.io/typing-svg)
 
 ---
 
-### 🧑‍💻 About Me
+### About
 
-**Final-semester Computer Science student at Taylor's University**, specialising in **Data Science** and **AI/ML**. I love turning raw data into actionable insights and building intelligent systems that solve real-world problems.
+Final-semester **Computer Science** student at **Taylor's University**, specialising in **Data Science** and **AI/ML**. Focused on transforming complex data into scalable, production-grade solutions — from predictive modelling to intelligent automation.
 
-📍 Subang Jaya, Sunway &nbsp;|&nbsp; 🌐 [bywadoo.life](https://www.bywadoo.life) &nbsp;|&nbsp; 📸 [@huzaib_qayoom](https://www.instagram.com/huzaib_qayoom)
+Subang Jaya, Sunway &nbsp;|&nbsp; [bywadoo.life](https://www.bywadoo.life) &nbsp;|&nbsp; [Instagram](https://www.instagram.com/huzaib_qayoom)
 
 ---
 
 </div>
 
-## ⚡ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -38,11 +38,11 @@
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=huzaib123&show_icons=true&count_private=true&include_all_commits=true&hide_border=true" alt="Huzaib's GitHub Stats" height="170" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=huzaib123&show_icons=true&count_private=true&include_all_commits=true&hide_border=true" alt="GitHub Stats" height="170" />
 &nbsp;&nbsp;
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=huzaib123&layout=compact&hide_border=true" alt="Top Languages" height="170" />
 
@@ -54,7 +54,7 @@
 
 ---
 
-## 🏆 GitHub Trophies
+## Trophies
 
 <div align="center">
 
@@ -64,7 +64,7 @@
 
 ---
 
-## 🔥 Recent GitHub Activity
+## Recent Activity
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
@@ -74,7 +74,5 @@
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=huzaib123&style=flat-square&color=blue)
-
-**Thanks for visiting! Feel free to check out my repos and connect.** 🚀
 
 </div>
