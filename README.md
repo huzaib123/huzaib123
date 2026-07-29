@@ -42,13 +42,13 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=huzaib123&show_icons=true&count_private=true&include_all_commits=true&hide_border=true" alt="Huzaib's GitHub Stats" height="170" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=huzaib123&show_icons=true&count_private=true&include_all_commits=true&hide_border=true" alt="Huzaib's GitHub Stats" height="170" />
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=huzaib123&layout=compact&hide_border=true" alt="Top Languages" height="170" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=huzaib123&layout=compact&hide_border=true" alt="Top Languages" height="170" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=huzaib123&hide_border=true" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=huzaib123&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
@@ -58,7 +58,7 @@
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=huzaib123&no-frame=true&no-bg=true&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=huzaib123&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
