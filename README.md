@@ -54,16 +54,6 @@ Subang Jaya, Sunway &nbsp;|&nbsp; [bywadoo.life](https://www.bywadoo.life) &nbsp
 
 ---
 
-## Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=huzaib123&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## Recent Activity
 
 <!--START_SECTION:activity-->
