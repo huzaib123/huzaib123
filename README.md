@@ -57,11 +57,11 @@ Subang Jaya, Sunway &nbsp;|&nbsp; [bywadoo.life](https://www.bywadoo.life) &nbsp
 ## Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#8](https://github.com/huzaib123/AI-receptionist/pull/8) in [huzaib123/AI-receptionist](https://github.com/huzaib123/AI-receptionist)
-2. 💪 Opened PR [#8](https://github.com/huzaib123/AI-receptionist/pull/8) in [huzaib123/AI-receptionist](https://github.com/huzaib123/AI-receptionist)
-3. 🎉 Merged PR [#7](https://github.com/huzaib123/AI-receptionist/pull/7) in [huzaib123/AI-receptionist](https://github.com/huzaib123/AI-receptionist)
-4. 💪 Opened PR [#7](https://github.com/huzaib123/AI-receptionist/pull/7) in [huzaib123/AI-receptionist](https://github.com/huzaib123/AI-receptionist)
-5. 🎉 Merged PR [#6](https://github.com/huzaib123/AI-receptionist/pull/6) in [huzaib123/AI-receptionist](https://github.com/huzaib123/AI-receptionist)
+1. 💪 Opened PR [#9](https://github.com/huzaib123/AI-receptionist/pull/9) in [huzaib123/AI-receptionist](https://github.com/huzaib123/AI-receptionist)
+2. 🎉 Merged PR [#8](https://github.com/huzaib123/AI-receptionist/pull/8) in [huzaib123/AI-receptionist](https://github.com/huzaib123/AI-receptionist)
+3. 💪 Opened PR [#8](https://github.com/huzaib123/AI-receptionist/pull/8) in [huzaib123/AI-receptionist](https://github.com/huzaib123/AI-receptionist)
+4. 🎉 Merged PR [#7](https://github.com/huzaib123/AI-receptionist/pull/7) in [huzaib123/AI-receptionist](https://github.com/huzaib123/AI-receptionist)
+5. 💪 Opened PR [#7](https://github.com/huzaib123/AI-receptionist/pull/7) in [huzaib123/AI-receptionist](https://github.com/huzaib123/AI-receptionist)
 <!--END_SECTION:activity-->
 
 ---
