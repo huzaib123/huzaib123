@@ -57,11 +57,11 @@ Subang Jaya, Sunway &nbsp;|&nbsp; [bywadoo.life](https://www.bywadoo.life) &nbsp
 ## Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#6](https://github.com/huzaib123/pyramidgolds/pull/6) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
-2. 💪 Opened PR [#6](https://github.com/huzaib123/pyramidgolds/pull/6) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
-3. 🎉 Merged PR [#5](https://github.com/huzaib123/pyramidgolds/pull/5) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
-4. 💪 Opened PR [#5](https://github.com/huzaib123/pyramidgolds/pull/5) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
-5. 🎉 Merged PR [#4](https://github.com/huzaib123/pyramidgolds/pull/4) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
+1. 🎉 Merged PR [#8](https://github.com/huzaib123/pyramidgolds/pull/8) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
+2. 💪 Opened PR [#8](https://github.com/huzaib123/pyramidgolds/pull/8) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
+3. 🎉 Merged PR [#7](https://github.com/huzaib123/pyramidgolds/pull/7) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
+4. 💪 Opened PR [#7](https://github.com/huzaib123/pyramidgolds/pull/7) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
+5. 🎉 Merged PR [#6](https://github.com/huzaib123/pyramidgolds/pull/6) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
 <!--END_SECTION:activity-->
 
 ---
