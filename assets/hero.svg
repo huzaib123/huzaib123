@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="t d">
+  <title id="t">Huzaib Wadoo, Full Stack Developer (MERN)</title>
+  <desc id="d">Animated banner: name, role, and a terminal starting a Docker Compose stack.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b16"/>
+      <stop offset="1" stop-color="#0d1426"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2e8f0"/>
+      <stop offset="0.35" stop-color="#e2e8f0"/>
+      <stop offset="0.5" stop-color="#67e8f9"/>
+      <stop offset="0.65" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#e2e8f0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1e293b" stroke-width="1"/>
+    </pattern>
+    <clipPath id="typeclip"><rect x="732" y="106" width="260" height="26"><animate attributeName="width" values="0;0;260;260" keyTimes="0;0.02;0.11;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="frame"><rect width="1200" height="380" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .grid { animation: drift 18s linear infinite; }
+    @keyframes drift { from { transform: translate(0, 0); } to { transform: translate(-32px, -32px); } }
+    .orb { animation: float 9s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+    .orb.b { animation-duration: 12s; animation-delay: -4s; }
+    @keyframes float { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(-30px, 18px) scale(1.12); } }
+    .rise { animation: rise .9s cubic-bezier(.2,.8,.2,1) both; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; } .d4 { animation-delay: .85s; } .d5 { animation-delay: 1.1s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    .bar { animation: grow 1.4s cubic-bezier(.2,.8,.2,1) .5s both; transform-origin: left; transform-box: fill-box; }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .chip { animation: rise .7s cubic-bezier(.2,.8,.2,1) both; }
+    .term { animation: rise 1s cubic-bezier(.2,.8,.2,1) .3s both; }
+    /* terminal lines replay every 14s */
+    .ln { animation: line 14s steps(1, end) infinite both; }
+    .l1 { animation-name: l1; } .l2 { animation-name: l2; } .l3 { animation-name: l3; } .l4 { animation-name: l4; }
+    .l5 { animation-name: l5; } .l6 { animation-name: l6; } .l7 { animation-name: l7; } .l8 { animation-name: l8; }
+    @keyframes l1 { 0% { opacity: 0; } 4% { opacity: 1; } 96% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes l2 { 0% { opacity: 0; } 14% { opacity: 1; } 96% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes l3 { 0% { opacity: 0; } 20% { opacity: 1; } 96% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes l4 { 0% { opacity: 0; } 27% { opacity: 1; } 96% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes l5 { 0% { opacity: 0; } 33% { opacity: 1; } 96% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes l6 { 0% { opacity: 0; } 39% { opacity: 1; } 96% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes l7 { 0% { opacity: 0; } 50% { opacity: 1; } 96% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes l8 { 0% { opacity: 0; } 62% { opacity: 1; } 96% { opacity: 1; } 100% { opacity: 0; } }
+    .cursor { animation: blink 1s steps(1, end) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .scan { animation: scan 4s ease-in-out infinite; }
+    @keyframes scan { 0% { transform: translateY(0); opacity: 0; } 15% { opacity: .9; } 85% { opacity: .9; } 100% { transform: translateY(210px); opacity: 0; } }
+    .pulse { animation: pulse 2.4s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    @keyframes pulse { 0% { transform: scale(.6); opacity: .9; } 100% { transform: scale(2.4); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <g opacity="0.55"><rect class="grid" x="0" y="0" width="1264" height="444" fill="url(#grid)"/></g>
+    <circle class="orb" cx="180" cy="70" r="190" fill="url(#glow)"/>
+    <circle class="orb b" cx="1050" cy="330" r="220" fill="url(#glow)" opacity="0.7"/>
+
+    <!-- left: identity -->
+    <g class="sans">
+      <g class="rise d1">
+        <circle cx="74" cy="76" r="5" fill="#34d399"/>
+        <circle class="pulse" cx="74" cy="76" r="5" fill="none" stroke="#34d399" stroke-width="2"/>
+        <text x="88" y="81" font-size="15" fill="#94a3b8" letter-spacing="2">OPEN TO FULL STACK ROLES</text>
+      </g>
+      <text class="rise d2" x="64" y="150" font-size="62" font-weight="800" fill="url(#name)" letter-spacing="-1">Huzaib Wadoo</text>
+      <rect class="bar" x="66" y="168" width="250" height="4" rx="2" fill="url(#accent)"/>
+      <text class="rise d3" x="64" y="210" font-size="26" font-weight="600" fill="#e2e8f0">Full Stack Developer <tspan fill="#22d3ee">(MERN)</tspan></text>
+      <text class="rise d4" x="64" y="244" font-size="17" fill="#94a3b8">Secure, containerised web apps: REST APIs, Redis, Docker, React.</text>
+
+      <g class="mono" font-size="13">
+        <g class="chip" style="animation-delay:1.1s"><rect x="64" y="276" width="86" height="28" rx="14" fill="#0f172a" stroke="#334155"/><text x="107" y="295" text-anchor="middle" fill="#4ade80">MongoDB</text></g>
+        <g class="chip" style="animation-delay:1.2s"><rect x="158" y="276" width="86" height="28" rx="14" fill="#0f172a" stroke="#334155"/><text x="201" y="295" text-anchor="middle" fill="#e2e8f0">Express</text></g>
+        <g class="chip" style="animation-delay:1.3s"><rect x="252" y="276" width="72" height="28" rx="14" fill="#0f172a" stroke="#334155"/><text x="288" y="295" text-anchor="middle" fill="#67e8f9">React</text></g>
+        <g class="chip" style="animation-delay:1.4s"><rect x="332" y="276" width="76" height="28" rx="14" fill="#0f172a" stroke="#334155"/><text x="370" y="295" text-anchor="middle" fill="#86efac">Node</text></g>
+        <g class="chip" style="animation-delay:1.5s"><rect x="416" y="276" width="72" height="28" rx="14" fill="#0f172a" stroke="#334155"/><text x="452" y="295" text-anchor="middle" fill="#f87171">Redis</text></g>
+        <g class="chip" style="animation-delay:1.6s"><rect x="496" y="276" width="80" height="28" rx="14" fill="#0f172a" stroke="#334155"/><text x="536" y="295" text-anchor="middle" fill="#60a5fa">Docker</text></g>
+      </g>
+      <text class="rise d5" x="64" y="338" font-size="14" fill="#64748b">Taylor's University × UWE Bristol · AI/ML Intern @ Emly Labs · AWS Certified</text>
+    </g>
+
+    <!-- right: terminal -->
+    <g class="term">
+      <rect x="690" y="52" width="450" height="276" rx="14" fill="#0b1222" stroke="#1e293b"/>
+      <rect x="690" y="52" width="450" height="38" rx="14" fill="#111a2e"/>
+      <rect x="690" y="76" width="450" height="14" fill="#111a2e"/>
+      <circle cx="714" cy="71" r="6" fill="#f87171"/><circle cx="734" cy="71" r="6" fill="#fbbf24"/><circle cx="754" cy="71" r="6" fill="#34d399"/>
+      <text x="915" y="76" text-anchor="middle" class="mono" font-size="12" fill="#64748b">~/security-header-scanner</text>
+      <rect class="scan" x="692" y="96" width="446" height="2" fill="#22d3ee" opacity="0"/>
+
+      <g class="mono" font-size="14">
+        <g class="ln l1">
+          <text x="712" y="124" fill="#34d399">❯</text>
+          <text x="732" y="124" fill="#e2e8f0" clip-path="url(#typeclip)">docker compose up --build</text>
+        </g>
+        <text class="ln l2" x="712" y="156" fill="#94a3b8"><tspan fill="#34d399">✔</tspan> mongo   <tspan fill="#64748b">healthy</tspan></text>
+        <text class="ln l3" x="712" y="180" fill="#94a3b8"><tspan fill="#34d399">✔</tspan> redis   <tspan fill="#64748b">healthy</tspan></text>
+        <text class="ln l4" x="712" y="204" fill="#94a3b8"><tspan fill="#34d399">✔</tspan> server  <tspan fill="#64748b">listening on :5060</tspan></text>
+        <text class="ln l5" x="712" y="228" fill="#94a3b8"><tspan fill="#34d399">✔</tspan> worker  <tspan fill="#64748b">BullMQ queue ready</tspan></text>
+        <text class="ln l6" x="712" y="252" fill="#94a3b8"><tspan fill="#34d399">✔</tspan> client  <tspan fill="#64748b">http://localhost:8090</tspan></text>
+        <text class="ln l7" x="712" y="284" fill="#67e8f9">→ POST /api/scans  <tspan fill="#a78bfa">202 Accepted</tspan></text>
+        <g class="ln l8">
+          <text x="712" y="308" fill="#e2e8f0">→ github.com  grade</text>
+          <rect x="880" y="292" width="26" height="22" rx="5" fill="#22c55e"/>
+          <text x="893" y="308" text-anchor="middle" fill="#052e16" font-weight="700">A</text>
+          <rect class="cursor" x="918" y="295" width="9" height="16" fill="#e2e8f0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
