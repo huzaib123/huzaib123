@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="330" viewBox="0 0 590 330" role="img" aria-labelledby="t d">
+  <title id="t">Website Security Header Scanner</title>
+  <desc id="d">MERN scanner that grades a website's security headers A to F using a BullMQ worker and Redis. Animated scan preview.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1222"/><stop offset="1" stop-color="#140f2e"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 1 0" dur="3.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0.35"/></linearGradient>
+    <clipPath id="c"><rect width="590" height="330" rx="16"/></clipPath>
+    <clipPath id="panel"><rect x="28" y="124" width="534" height="140" rx="10"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .beam { animation: beam 7s ease-in-out infinite; }
+    @keyframes beam { 0% { transform: translateY(-40px); } 45% { transform: translateY(140px); } 100% { transform: translateY(140px); } }
+    .chk { animation: chk 7s steps(1, end) infinite both; }
+    .k1 { animation-name: k1; } .k2 { animation-name: k2; } .k3 { animation-name: k3; } .k4 { animation-name: k4; }
+    @keyframes k1 { 0%, 9% { opacity: 0; } 10%, 96% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    @keyframes k2 { 0%, 19% { opacity: 0; } 20%, 96% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    @keyframes k3 { 0%, 29% { opacity: 0; } 30%, 96% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    @keyframes k4 { 0%, 39% { opacity: 0; } 40%, 96% { opacity: 1; } 97%, 100% { opacity: 0; } }
+    .g { animation: g 7s steps(1, end) infinite; opacity: 0; }
+    .gF { animation-name: gF; } .gC { animation-name: gC; } .gA { animation-name: gA; opacity: 1; }
+    @keyframes gF { 0%, 14% { opacity: 1; } 15%, 100% { opacity: 0; } }
+    @keyframes gC { 0%, 14% { opacity: 0; } 15%, 34% { opacity: 1; } 35%, 100% { opacity: 0; } }
+    @keyframes gA { 0%, 34% { opacity: 0; } 35%, 100% { opacity: 1; } }
+    .pop { animation: pop 7s cubic-bezier(.2,.8,.2,1) infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pop { 0%, 34% { transform: scale(1); } 38% { transform: scale(1.15); } 44%, 100% { transform: scale(1); } }
+    .ring { animation: ring 7s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes ring { 0%, 34% { transform: scale(1); opacity: 0; } 36% { opacity: .8; } 55%, 100% { transform: scale(1.7); opacity: 0; } }
+    .cache { animation: cache 7s steps(1, end) infinite; }
+    @keyframes cache { 0%, 59% { opacity: 0; } 60%, 95% { opacity: 1; } 96%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .gA { opacity: 1; } .gF, .gC, .cache, .beam { opacity: 0; } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="590" height="330" fill="url(#bg)"/>
+    <rect x="0" y="0" width="590" height="2" fill="url(#edge)"/>
+    <rect x="0.5" y="0.5" width="589" height="329" rx="16" fill="none" stroke="#1e293b"/>
+
+    <g class="sans">
+      <text x="28" y="44" font-size="12" fill="#a78bfa" letter-spacing="2" font-weight="700">PROJECT 02 · MERN</text>
+      <text x="28" y="76" font-size="25" font-weight="700" fill="#f1f5f9">Website Security Header Scanner</text>
+      <text x="28" y="102" font-size="14" fill="#94a3b8">Scan a site in the background, get an A–F grade and fixes.</text>
+    </g>
+
+    <rect x="28" y="124" width="534" height="140" rx="10" fill="#0a101e" stroke="#1e293b"/>
+    <g clip-path="url(#panel)">
+      <rect class="beam" x="28" y="84" width="350" height="40" fill="url(#beam)"/>
+    </g>
+    <g class="mono" font-size="12">
+      <text x="46" y="150" fill="#64748b">GET https://example.com</text>
+      <g class="chk k1"><text x="46" y="178" fill="#4ade80">✔</text><text x="66" y="178" fill="#e2e8f0">Strict-Transport-Security</text></g>
+      <g class="chk k2"><text x="46" y="202" fill="#4ade80">✔</text><text x="66" y="202" fill="#e2e8f0">Content-Security-Policy</text></g>
+      <g class="chk k3"><text x="46" y="226" fill="#4ade80">✔</text><text x="66" y="226" fill="#e2e8f0">X-Frame-Options · nosniff</text></g>
+      <g class="chk k4"><text x="46" y="250" fill="#4ade80">✔</text><text x="66" y="250" fill="#e2e8f0">No Server version leak</text></g>
+    </g>
+    <!-- grade -->
+    <g transform="translate(420,148)">
+      <rect class="ring" x="0" y="0" width="92" height="92" rx="20" fill="none" stroke="#22c55e" stroke-width="3"/>
+      <g class="pop">
+        <rect class="g gF" x="0" y="0" width="92" height="92" rx="20" fill="#ef4444"/>
+        <rect class="g gC" x="0" y="0" width="92" height="92" rx="20" fill="#eab308"/>
+        <rect class="g gA" x="0" y="0" width="92" height="92" rx="20" fill="#22c55e"/>
+        <g class="sans" font-size="54" font-weight="800" text-anchor="middle">
+          <text class="g gF" x="46" y="66" fill="#450a0a">F</text>
+          <text class="g gC" x="46" y="66" fill="#422006">C</text>
+          <text class="g gA" x="46" y="66" fill="#052e16">A</text>
+        </g>
+      </g>
+    </g>
+    <g class="cache mono" font-size="10"><rect x="404" y="244" width="124" height="18" rx="9" fill="#082f49" stroke="#22d3ee"/><text x="466" y="257" text-anchor="middle" fill="#67e8f9">cached · 188 ms</text></g>
+
+    <g class="mono" font-size="11">
+      <rect x="28" y="282" width="80" height="24" rx="12" fill="#0f172a" stroke="#334155"/><text x="68" y="298" text-anchor="middle" fill="#f87171">BullMQ</text>
+      <rect x="116" y="282" width="70" height="24" rx="12" fill="#0f172a" stroke="#334155"/><text x="151" y="298" text-anchor="middle" fill="#f87171">Redis</text>
+      <rect x="194" y="282" width="100" height="24" rx="12" fill="#0f172a" stroke="#334155"/><text x="244" y="298" text-anchor="middle" fill="#cbd5e1">Rate limit</text>
+      <rect x="302" y="282" width="122" height="24" rx="12" fill="#0f172a" stroke="#334155"/><text x="363" y="298" text-anchor="middle" fill="#a78bfa">SSRF guard</text>
+      <text x="562" y="298" text-anchor="end" fill="#a78bfa" font-size="12">View repo →</text>
+    </g>
+  </g>
+</svg>
