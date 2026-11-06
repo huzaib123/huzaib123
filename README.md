@@ -104,11 +104,11 @@ const huzaib = {
 #### Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#8](https://github.com/huzaib123/pyramidgolds/pull/8) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
-2. 💪 Opened PR [#8](https://github.com/huzaib123/pyramidgolds/pull/8) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
-3. 🎉 Merged PR [#7](https://github.com/huzaib123/pyramidgolds/pull/7) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
-4. 💪 Opened PR [#7](https://github.com/huzaib123/pyramidgolds/pull/7) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
-5. 🎉 Merged PR [#6](https://github.com/huzaib123/pyramidgolds/pull/6) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
+1. 🎉 Merged PR [#9](https://github.com/huzaib123/pyramidgolds/pull/9) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
+2. ℹ️ Assigned PR [#9](https://github.com/huzaib123/pyramidgolds/pull/9) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
+3. 💪 Opened PR [#9](https://github.com/huzaib123/pyramidgolds/pull/9) in [huzaib123/pyramidgolds](https://github.com/huzaib123/pyramidgolds)
+4. 🎉 Merged PR [#1](https://github.com/dKirmani-Kavriqon/CasaCraft/pull/1) in [dKirmani-Kavriqon/CasaCraft](https://github.com/dKirmani-Kavriqon/CasaCraft)
+5. 💪 Opened PR [#1](https://github.com/dKirmani-Kavriqon/CasaCraft/pull/1) in [dKirmani-Kavriqon/CasaCraft](https://github.com/dKirmani-Kavriqon/CasaCraft)
 <!--END_SECTION:activity-->
 
 <div align="center">
