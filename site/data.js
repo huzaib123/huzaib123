@@ -65,7 +65,7 @@ window.SITE = {
       featured: true,
       repo: 'AI-receptionist',
       stack: ['Python', 'LLM APIs', 'Speech APIs'],
-      links: { demo: 'https://huzaib123.github.io/ai-receptionist/', code: 'https://github.com/huzaib123/AI-receptionist' }
+      links: { demo: 'https://huzaib123.github.io/AI-receptionist/', code: 'https://github.com/huzaib123/AI-receptionist' }
     },
     {
       id: 'heart',

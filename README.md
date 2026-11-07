@@ -56,7 +56,7 @@ const huzaib = {
 | **Pyramid Golds**: e-commerce jewellery website for a real client | HTML, CSS, JavaScript | [Live](https://pyramidgolds.in) · [Code](https://github.com/huzaib123/pyramidgolds) |
 | **Heart Disease Predictor**: ML model served by a REST API with a web front end | Python, REST API, JavaScript, Render | [Live](https://heart-disease-predictor-1nir.onrender.com) · [Code](https://github.com/huzaib123/heart-disease-predictor) |
 | **Personal Finance Anomaly Monitor**: flags suspicious spending (Isolation Forest, 85%+ accuracy) | Python, scikit-learn | [Live](https://huzaib123.github.io/personal-finance-anomaly-monitor/) · [Code](https://github.com/huzaib123/personal-finance-anomaly-monitor) |
-| **AI Receptionist**: voice and text assistant routing 10+ customer intents | Python, LLM and speech APIs | [Demo](https://huzaib123.github.io/ai-receptionist/) · [Code](https://github.com/huzaib123/AI-receptionist) |
+| **AI Receptionist**: voice and text assistant routing 10+ customer intents | Python, LLM and speech APIs | [Demo](https://huzaib123.github.io/AI-receptionist/) · [Code](https://github.com/huzaib123/AI-receptionist) |
 | **Aksa Resorts**: responsive hospitality website | HTML, CSS, JavaScript | [Live](https://huzaib123.github.io/aksa-resorts/) |
 | **Firdoos**: mobile-first brand website | HTML, CSS | [Live](https://huzaib123.github.io/firdoos/) |
 | **GPA Calculator**: interactive student tool | HTML, CSS, JavaScript | [Live](https://huzaib123.github.io/gpa-calculator/) · [Code](https://github.com/huzaib123/gpa-calculator) |
