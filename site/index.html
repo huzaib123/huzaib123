@@ -1,330 +1,175 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Huzaib Wadoo · Full Stack Developer (MERN)</title>
-  <meta name="description" content="Huzaib Wadoo builds secure, containerised MERN apps: REST APIs in Node.js and Express, MongoDB, Redis, BullMQ workers and React front ends, shipped in Docker with tests in CI." />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Huzaib Wadoo</title>
+  <meta name="description" content="Huzaib Wadoo builds web apps and AI systems that run for real. AI/ML Intern at Emly Labs, working on an AI-driven bus management system for Kashmir." />
   <link rel="canonical" href="https://bywadoo.life/" />
-  <meta name="theme-color" content="#0a0e17" media="(prefers-color-scheme: dark)" />
-  <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)" />
-
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://bywadoo.life/" />
-  <meta property="og:title" content="Huzaib Wadoo · Full Stack Developer (MERN)" />
-  <meta property="og:description" content="Secure, containerised web apps: REST APIs, Redis, BullMQ, Docker and React." />
+  <meta property="og:title" content="Huzaib Wadoo" />
+  <meta property="og:description" content="Web apps and AI systems that run for real." />
   <meta property="og:image" content="https://bywadoo.life/og.png" />
   <meta name="twitter:card" content="summary_large_image" />
-
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
   <link rel="stylesheet" href="styles.css" />
-
   <script>
-    // Apply the saved theme before first paint so there is no flash.
     (function () {
       var d = document.documentElement;
-      d.classList.add('js');
-      try {
-        var t = localStorage.getItem('theme');
-        if (t === 'light' || t === 'dark') d.setAttribute('data-theme', t);
-      } catch (e) {}
+      d.classList.remove('no-js'); d.classList.add('js');
+      try { var t = localStorage.getItem('theme'); if (t === 'light' || t === 'dark') d.setAttribute('data-theme', t); } catch (e) {}
     })();
   </script>
+  <script src="data.js" defer></script>
   <script src="main.js" defer></script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Huzaib Wadoo",
-    "jobTitle": "Full Stack Developer (MERN)",
-    "url": "https://bywadoo.life/",
-    "email": "mailto:huzaibqayoom@gmail.com",
-    "sameAs": ["https://github.com/huzaib123"]
-  }
-  </script>
 </head>
-<body>
+<body data-page="home">
   <a class="skip" href="#main">Skip to content</a>
+  <div class="aurora" aria-hidden="true"><div class="aurora__inner"><span></span><span></span><span></span><span></span></div></div>
+  <div class="progress" aria-hidden="true"></div>
 
-  <header class="nav" data-nav>
-    <div class="wrap nav__inner">
-      <a class="brand" href="#top" aria-label="Huzaib Wadoo, back to top">
-        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="8"/><path d="M9 9v14M9 16h7M16 9v14M19 9l2 14 2.5-9 2.5 9 2-14"/></svg>
-        <span>Huzaib Wadoo</span>
-      </a>
-      <nav aria-label="Sections">
-        <ul class="nav__links">
-          <li><a href="#work">Work</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#stack">Stack</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <button class="theme" type="button" data-theme-toggle aria-label="Switch colour theme">
-        <svg class="theme__sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-        <svg class="theme__moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
-      </button>
-    </div>
+  <header class="nav glass" data-nav>
+    <a class="nav__home" href="./" aria-label="Huzaib Wadoo, home">HW</a>
+    <nav aria-label="Main">
+      <div class="nav__links">
+        <span class="nav__pill" aria-hidden="true"></span>
+        <a href="./" aria-current="page" data-hide-sm>Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="freelance.html">Freelance</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <button class="theme" type="button" data-theme-toggle aria-label="Switch colour theme">
+      <svg class="theme__sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="theme__moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+    </button>
   </header>
 
   <main id="main">
     <!-- Hero -->
-    <section class="hero wrap" id="top" aria-labelledby="hero-title">
-      <div class="hero__copy">
-        <p class="status"><span class="status__dot" aria-hidden="true"></span>Open to full stack roles, on-site or remote</p>
-        <h1 id="hero-title" class="hero__title">Huzaib Wadoo</h1>
-        <p class="hero__role">Full stack developer <span class="accent">(MERN)</span></p>
-        <p class="hero__lead">I build REST APIs, background workers and React front ends that are secure from the first commit, and ship them in Docker with tests running in CI.</p>
-        <div class="hero__actions">
-          <a class="btn btn--primary" href="mailto:huzaibqayoom@gmail.com">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
-            Email me
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div>
+        <p class="status glass" data-reveal="fade"><span class="pulse" aria-hidden="true"></span>Open to full stack roles</p>
+        <h1 id="hero-title" class="display split" data-split="chars">Huzaib<br />Wadoo<span class="grad">.</span></h1>
+        <p class="hero__lead subhead" data-reveal style="--d: 500ms">I build web apps and AI systems that run for real, from REST APIs and background workers to the interfaces people use every day.</p>
+        <div class="hero__actions" data-reveal style="--d: 650ms">
+          <a class="btn btn--primary" href="projects.html" data-magnetic>
+            View projects
+            <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
-          <a class="btn btn--ghost" href="#work">See selected work</a>
-          <a class="btn btn--ghost btn--icon" href="https://github.com/huzaib123" aria-label="GitHub profile">
-            <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
-          </a>
+          <a class="btn btn--ghost" href="mailto:huzaibqayoom@gmail.com" data-magnetic>Email me</a>
         </div>
-        <dl class="facts">
-          <div><dt>Now</dt><dd>AI/ML Intern, Emly Labs</dd></div>
-          <div><dt>Studying</dt><dd>BSc CS (AI), Taylor's × UWE Bristol</dd></div>
-          <div><dt>Certified</dt><dd>AWS Cloud Practitioner</dd></div>
-        </dl>
       </div>
 
-      <figure class="term" aria-label="Terminal starting the Security Header Scanner stack">
-        <div class="term__bar" aria-hidden="true">
-          <span></span><span></span><span></span>
-          <p>~/security-header-scanner</p>
+      <article class="now" data-reveal="scale" style="--d: 350ms" aria-labelledby="now-title">
+        <p class="now__top"><span class="pulse" aria-hidden="true"></span>Now · Emly Labs</p>
+        <h2 id="now-title">Building an AI-driven bus management system for Kashmir.</h2>
+        <p>AI/ML Intern at Emly Labs (SimplyPhi Software Solutions), since September 2026.</p>
+        <div class="route" data-route aria-hidden="true">
+          <svg viewBox="0 0 400 150">
+            <defs>
+              <linearGradient id="routeGrad" x1="0" x2="1">
+                <stop offset="0" stop-color="var(--blue)" /><stop offset="0.5" stop-color="var(--purple)" /><stop offset="1" stop-color="var(--pink)" />
+              </linearGradient>
+            </defs>
+            <path class="route__road" d="M24 112 C 84 112, 92 44, 156 44 S 236 118, 296 92 S 360 34, 380 38" />
+            <path class="route__line" pathLength="1" d="M24 112 C 84 112, 92 44, 156 44 S 236 118, 296 92 S 360 34, 380 38" />
+            <g data-stops></g>
+            <circle class="route__bus-glow" r="14" cx="24" cy="112" data-bus-glow />
+            <circle class="route__bus" r="7" cx="24" cy="112" data-bus />
+          </svg>
         </div>
-        <pre class="term__body" data-term><code><span class="t-line"><span class="t-prompt">❯</span> <span class="t-cmd">docker compose up --build</span></span>
-<span class="t-line t-out"><span class="ok">✔</span> mongo   <span class="dim">healthy</span></span>
-<span class="t-line t-out"><span class="ok">✔</span> redis   <span class="dim">healthy</span></span>
-<span class="t-line t-out"><span class="ok">✔</span> worker  <span class="dim">waiting for jobs</span></span>
-<span class="t-line t-out"><span class="ok">✔</span> server  <span class="dim">listening on :5060</span></span>
-<span class="t-line"><span class="t-prompt">❯</span> <span class="t-cmd">http POST :5060/api/scans url=github.com</span></span>
-<span class="t-line t-out"><span class="acc">HTTP/1.1 202 Accepted</span></span>
-<span class="t-line t-out"><span class="dim">location: /api/scans/</span>6650f1c2</span>
-<span class="t-line t-out"><span class="dim">ratelimit-remaining:</span> 9</span>
-<span class="t-line"><span class="t-prompt">❯</span> <span class="t-caret" aria-hidden="true"></span></span></code></pre>
-      </figure>
+      </article>
+      <span class="scroll-cue" aria-hidden="true"></span>
     </section>
 
-    <!-- Work -->
+    <!-- Experience first -->
+    <section class="section wrap" id="experience" aria-labelledby="exp-title">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow" data-reveal="fade">Experience</p>
+          <h2 id="exp-title" class="headline split" data-split="words">Where I’m working and learning.</h2>
+        </div>
+      </div>
+      <div class="timeline" data-timeline>
+        <span class="timeline__track" aria-hidden="true"></span>
+        <span class="timeline__fill" aria-hidden="true"></span>
+        <ol class="timeline__list" data-timeline-list></ol>
+      </div>
+    </section>
+
+    <!-- Selected projects -->
     <section class="section wrap" id="work" aria-labelledby="work-title">
-      <header class="section__head reveal">
-        <h2 id="work-title">Selected work</h2>
-        <p>Two MERN apps built end to end: data model, API, queue, cache, interface, containers and CI. Both focus on web security, because that is where I spend most of my time.</p>
-      </header>
-
-      <article class="case reveal" aria-labelledby="avt-title">
-        <div class="case__media">
-          <a href="https://github.com/huzaib123/Asset-Vulnerability-Tracker" tabindex="-1" aria-hidden="true">
-            <img src="img/avt-dashboard.webp" width="1440" height="900" loading="lazy" decoding="async" alt="" />
-          </a>
+      <div class="section__head">
+        <div>
+          <p class="eyebrow" data-reveal="fade">Selected projects</p>
+          <h2 id="work-title" class="headline split" data-split="words">Things I’ve built and shipped.</h2>
         </div>
-        <div class="case__body">
-          <p class="case__kicker">MERN · Security tooling</p>
-          <h3 id="avt-title">Asset &amp; Vulnerability Tracker</h3>
-          <p class="case__lead">A security team lists its websites and servers, logs the vulnerabilities found on each, and tracks every one until it is fixed.</p>
-          <ul class="case__points">
-            <li>JWT sign-in with Admin and Analyst roles, enforced on the server. Nobody can register as an Admin.</li>
-            <li>Dashboard numbers come from one MongoDB aggregation, cached in Redis and cleared on every write. If Redis is down, the API keeps answering.</li>
-            <li>Filters, search and pagination live in the URL; RTK Query tags refetch the dashboard the moment a status changes.</li>
-            <li>bcrypt, a pinned JWT algorithm, NoSQL-injection filtering, per-IP rate limits and a strict CSP from nginx.</li>
-          </ul>
-          <div class="flow" aria-label="Request flow">
-            <span class="flow__node">React</span>
-            <span class="flow__node">nginx</span>
-            <span class="flow__node flow__node--key">Express API</span>
-            <span class="flow__split">
-              <span class="flow__node">Redis</span>
-              <span class="flow__node">MongoDB</span>
-            </span>
-          </div>
-          <dl class="stats">
-            <div><dt>Docker services</dt><dd>4</dd></div>
-            <div><dt>Tests in CI</dt><dd>44</dd></div>
-            <div><dt>API routes</dt><dd>16</dd></div>
-          </dl>
-          <a class="link" href="https://github.com/huzaib123/Asset-Vulnerability-Tracker">Read the code<span class="sr-only"> for Asset &amp; Vulnerability Tracker</span> <span aria-hidden="true">→</span></a>
-        </div>
-      </article>
-
-      <article class="case case--flip reveal" aria-labelledby="shs-title">
-        <div class="case__media">
-          <a href="https://github.com/huzaib123/Security-Header-Scanner" tabindex="-1" aria-hidden="true">
-            <img src="img/shs-result.webp" width="980" height="612" loading="lazy" decoding="async" alt="" />
-          </a>
-        </div>
-        <div class="case__body">
-          <p class="case__kicker">MERN · Background jobs</p>
-          <h3 id="shs-title">Website Security Header Scanner</h3>
-          <p class="case__lead">Enter an address and a background worker checks its HTTPS setup and seven security headers, then grades it from A to F with a one-line fix for every problem.</p>
-          <ul class="case__points">
-            <li>The API answers <code>202 Accepted</code> at once. A BullMQ worker in its own container does the fetching, retries network errors once and recovers stalled jobs.</li>
-            <li>Redis does three jobs: a 10-minute result cache, an in-flight lock so two identical scans share one job, and a per-IP rate limit that holds across API containers.</li>
-            <li>The SSRF guard runs inside the HTTP client's DNS lookup, so every redirect hop is checked and DNS rebinding is blocked.</li>
-          </ul>
-          <div class="flow" aria-label="Request flow">
-            <span class="flow__node">React</span>
-            <span class="flow__node flow__node--key">API</span>
-            <span class="flow__node">BullMQ</span>
-            <span class="flow__node flow__node--key">Worker</span>
-            <span class="flow__split">
-              <span class="flow__node">Redis</span>
-              <span class="flow__node">MongoDB</span>
-            </span>
-          </div>
-          <dl class="stats">
-            <div><dt>Docker services</dt><dd>5</dd></div>
-            <div><dt>Tests in CI</dt><dd>49</dd></div>
-            <div><dt>Checks per scan</dt><dd>8</dd></div>
-          </dl>
-          <a class="link" href="https://github.com/huzaib123/Security-Header-Scanner">Read the code<span class="sr-only"> for Website Security Header Scanner</span> <span aria-hidden="true">→</span></a>
-        </div>
-      </article>
+        <p class="subhead" data-reveal>A few favourites. The full list, with live details from GitHub, is on the projects page.</p>
+      </div>
+      <div class="tiles" data-featured></div>
+      <div class="more-link" data-reveal>
+        <a class="btn btn--ghost" href="projects.html" data-magnetic>
+          See all projects
+          <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
     </section>
 
-    <!-- More projects -->
-    <section class="section wrap" id="more" aria-labelledby="more-title">
-      <header class="section__head section__head--row reveal">
-        <h2 id="more-title">More projects</h2>
-        <p>Client sites, machine learning and small tools.</p>
-      </header>
-      <ul class="rows reveal">
-        <li class="row">
-          <div class="row__main"><h3>Pyramid Golds</h3><p>E-commerce jewellery website for a real client.</p></div>
-          <p class="row__stack">HTML · CSS · JavaScript</p>
-          <p class="row__links"><a href="https://pyramidgolds.in">Live<span class="sr-only">: Pyramid Golds</span></a><a href="https://github.com/huzaib123/pyramidgolds">Code<span class="sr-only">: Pyramid Golds</span></a></p>
-        </li>
-        <li class="row">
-          <div class="row__main"><h3>AI Receptionist</h3><p>Voice and text assistant that routes 10+ customer intents.</p></div>
-          <p class="row__stack">Python · LLM and speech APIs</p>
-          <p class="row__links"><a href="https://huzaib123.github.io/ai-receptionist/">Demo<span class="sr-only">: AI Receptionist</span></a><a href="https://github.com/huzaib123/AI-receptionist">Code<span class="sr-only">: AI Receptionist</span></a></p>
-        </li>
-        <li class="row">
-          <div class="row__main"><h3>Heart Disease Predictor</h3><p>ML model served by a REST API with a web front end.</p></div>
-          <p class="row__stack">Python · REST API · JavaScript</p>
-          <p class="row__links"><a href="https://heart-disease-predictor-1nir.onrender.com">Live<span class="sr-only">: Heart Disease Predictor</span></a><a href="https://github.com/huzaib123/heart-disease-predictor">Code<span class="sr-only">: Heart Disease Predictor</span></a></p>
-        </li>
-        <li class="row">
-          <div class="row__main"><h3>Personal Finance Anomaly Monitor</h3><p>Flags suspicious spending with an Isolation Forest, 85%+ accuracy.</p></div>
-          <p class="row__stack">Python · scikit-learn</p>
-          <p class="row__links"><a href="https://huzaib123.github.io/personal-finance-anomaly-monitor/">Live<span class="sr-only">: Personal Finance Anomaly Monitor</span></a><a href="https://github.com/huzaib123/personal-finance-anomaly-monitor">Code<span class="sr-only">: Personal Finance Anomaly Monitor</span></a></p>
-        </li>
-        <li class="row">
-          <div class="row__main"><h3>Aksa Resorts</h3><p>Responsive hospitality website.</p></div>
-          <p class="row__stack">HTML · CSS · JavaScript</p>
-          <p class="row__links"><a href="https://huzaib123.github.io/aksa-resorts/">Live<span class="sr-only">: Aksa Resorts</span></a></p>
-        </li>
-        <li class="row">
-          <div class="row__main"><h3>Firdoos</h3><p>Mobile-first brand website.</p></div>
-          <p class="row__stack">HTML · CSS</p>
-          <p class="row__links"><a href="https://huzaib123.github.io/firdoos/">Live<span class="sr-only">: Firdoos</span></a></p>
-        </li>
-        <li class="row">
-          <div class="row__main"><h3>GPA Calculator</h3><p>Interactive tool for students.</p></div>
-          <p class="row__stack">HTML · CSS · JavaScript</p>
-          <p class="row__links"><a href="https://huzaib123.github.io/gpa-calculator/">Live<span class="sr-only">: GPA Calculator</span></a><a href="https://github.com/huzaib123/gpa-calculator">Code<span class="sr-only">: GPA Calculator</span></a></p>
-        </li>
-        <li class="row">
-          <div class="row__main"><h3>Crop Yield Predictor</h3><p>Yield model for 5+ crop types.</p></div>
-          <p class="row__stack">Python · scikit-learn</p>
-          <p class="row__links"><a href="https://github.com/huzaib123/Crop-Yield-Predictor-">Code<span class="sr-only">: Crop Yield Predictor</span></a></p>
-        </li>
-      </ul>
-    </section>
-
-    <!-- Experience -->
-    <section class="section wrap split" id="experience" aria-labelledby="exp-title">
-      <header class="section__head reveal">
-        <h2 id="exp-title">Experience</h2>
-        <p>Final-year Computer Science (AI) student, working alongside my degree.</p>
-      </header>
-      <ol class="timeline reveal">
-        <li>
-          <p class="when">Sept 2026 – now</p>
-          <h3>AI/ML Intern <span>· Emly Labs (SimplyPhi Software Solutions)</span></h3>
-          <p>Remote. Training and evaluating Python ML models for a passenger transport safety and risk monitoring system.</p>
-        </li>
-        <li>
-          <p class="when">Ongoing</p>
-          <h3>Freelance Web Developer <span>· Client projects</span></h3>
-          <p>Built and shipped live websites for Pyramid Golds, Aksa Resorts and Firdoos.</p>
-        </li>
-        <li>
-          <p class="when">Oct 2023 – now</p>
-          <h3>Senior Research Member &amp; AI Contributor <span>· Young Kashmir Research Society</span></h3>
-          <p>Python data pipelines that cut reporting time by about 20%.</p>
-        </li>
-        <li>
-          <p class="when">Graduating Jan 2027</p>
-          <h3>Dual BSc (Hons) Computer Science, AI <span>· Taylor's University × UWE Bristol</span></h3>
-          <p>Dean's List 2025.</p>
-        </li>
-        <li>
-          <p class="when">Certifications</p>
-          <h3>AWS Certified Cloud Practitioner</h3>
-          <p>Also: Generative AI with Google Gemini · Oracle Java Programming.</p>
-        </li>
-      </ol>
+    <!-- Freelance teaser -->
+    <section class="wrap" aria-labelledby="free-title">
+      <div class="band" data-reveal="scale">
+        <p class="eyebrow">Freelance</p>
+        <h2 id="free-title" class="headline">Websites for real businesses.</h2>
+        <p>Alongside my degree and internship, I design and build websites for clients, from e-commerce to hospitality.</p>
+        <div class="band__clients" data-band-clients></div>
+        <a class="btn btn--primary" href="freelance.html" data-magnetic>
+          See client work
+          <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
     </section>
 
     <!-- Stack -->
-    <section class="section wrap split" id="stack" aria-labelledby="stack-title">
-      <header class="section__head reveal">
-        <h2 id="stack-title">Stack</h2>
-        <p>What I reach for, and what both featured projects run on.</p>
-      </header>
-      <div class="stack reveal">
-        <div class="stack__group">
-          <h3>Frontend</h3>
-          <ul><li>React</li><li>Redux Toolkit</li><li>RTK Query</li><li>React Router</li><li>Vite</li><li>JavaScript</li></ul>
-        </div>
-        <div class="stack__group">
-          <h3>Backend</h3>
-          <ul><li>Node.js</li><li>Express.js</li><li>REST APIs</li><li>BullMQ</li><li>JWT</li><li>FastAPI</li></ul>
-        </div>
-        <div class="stack__group">
-          <h3>Data</h3>
-          <ul><li>MongoDB</li><li>Mongoose</li><li>Redis</li></ul>
-        </div>
-        <div class="stack__group">
-          <h3>Infra &amp; testing</h3>
-          <ul><li>Docker</li><li>Docker Compose</li><li>nginx</li><li>GitHub Actions</li><li>AWS</li><li>Vitest</li></ul>
-        </div>
-        <div class="stack__group">
-          <h3>ML</h3>
-          <ul><li>Python</li><li>scikit-learn</li></ul>
+    <section class="section" id="stack" aria-labelledby="stack-title">
+      <div class="wrap section__head">
+        <div>
+          <p class="eyebrow" data-reveal="fade">Stack</p>
+          <h2 id="stack-title" class="headline split" data-split="words">Tools I reach for.</h2>
         </div>
       </div>
+      <div class="marquee" data-marquee aria-label="Technologies"></div>
     </section>
 
     <!-- Contact -->
     <section class="contact wrap" id="contact" aria-labelledby="contact-title">
-      <div class="contact__card reveal">
-        <h2 id="contact-title">Let's build something.</h2>
-        <p>Hiring for a full stack role, or have a project in mind? Email is the fastest way to reach me.</p>
-        <div class="contact__actions">
-          <a class="contact__email" href="mailto:huzaibqayoom@gmail.com">huzaibqayoom@gmail.com</a>
-          <button class="btn btn--ghost" type="button" data-copy="huzaibqayoom@gmail.com">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg>
-            <span data-copy-label>Copy address</span>
-          </button>
-        </div>
-        <p class="sr-only" role="status" aria-live="polite" data-copy-status></p>
+      <p class="eyebrow" data-reveal="fade">Contact</p>
+      <h2 id="contact-title" class="display split" data-split="chars">Let’s <span class="grad">talk.</span></h2>
+      <p class="subhead" data-reveal>Hiring for a full stack or AI role, or have a website in mind? Email is the fastest way to reach me.</p>
+      <div class="contact__actions" data-reveal>
+        <a class="btn btn--primary" href="mailto:huzaibqayoom@gmail.com" data-magnetic>huzaibqayoom@gmail.com</a>
+        <button class="btn btn--ghost" type="button" data-copy="huzaibqayoom@gmail.com" data-magnetic>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg>
+          <span data-copy-label>Copy email</span>
+        </button>
       </div>
+      <p class="sr-only" role="status" aria-live="polite" data-copy-status></p>
     </section>
   </main>
 
   <footer class="footer wrap">
     <p>© <span data-year>2026</span> Huzaib Wadoo</p>
-    <p><a href="https://github.com/huzaib123">GitHub</a> · <a href="https://github.com/huzaib123/huzaib123/tree/main/site">Source for this site</a></p>
+    <nav aria-label="Footer">
+      <a href="projects.html">Projects</a>
+      <a href="freelance.html">Freelance</a>
+      <a href="https://github.com/huzaib123">GitHub</a>
+    </nav>
   </footer>
 </body>
 </html>
