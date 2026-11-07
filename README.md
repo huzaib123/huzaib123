@@ -1,13 +1,13 @@
 <div align="center">
 
-<a href="https://www.bywadoo.life">
+<a href="https://bywadoo.life">
   <img src="assets/hero.svg" width="100%" alt="Huzaib Wadoo, Full Stack Developer (MERN). Node.js, Express.js, React, MongoDB, Redis, Docker." />
 </a>
 
 <br />
 
 <a href="mailto:huzaibqayoom@gmail.com"><img src="https://img.shields.io/badge/Email-huzaibqayoom%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=22d3ee&labelColor=0b1222" alt="Email" /></a>
-<a href="https://www.bywadoo.life"><img src="https://img.shields.io/badge/Portfolio-bywadoo.life-0f172a?style=for-the-badge&logo=googlechrome&logoColor=a78bfa&labelColor=0b1222" alt="Portfolio" /></a>
+<a href="https://bywadoo.life"><img src="https://img.shields.io/badge/Portfolio-bywadoo.life-0f172a?style=for-the-badge&logo=googlechrome&logoColor=a78bfa&labelColor=0b1222" alt="Portfolio" /></a>
 <a href="https://github.com/huzaib123?tab=repositories"><img src="https://img.shields.io/badge/GitHub-huzaib123-0f172a?style=for-the-badge&logo=github&logoColor=34d399&labelColor=0b1222" alt="GitHub" /></a>
 
 </div>
@@ -56,7 +56,7 @@ const huzaib = {
 | **Pyramid Golds**: e-commerce jewellery website for a real client | HTML, CSS, JavaScript | [Live](https://pyramidgolds.in) · [Code](https://github.com/huzaib123/pyramidgolds) |
 | **Heart Disease Predictor**: ML model served by a REST API with a web front end | Python, REST API, JavaScript, Render | [Live](https://heart-disease-predictor-1nir.onrender.com) · [Code](https://github.com/huzaib123/heart-disease-predictor) |
 | **Personal Finance Anomaly Monitor**: flags suspicious spending (Isolation Forest, 85%+ accuracy) | Python, scikit-learn | [Live](https://huzaib123.github.io/personal-finance-anomaly-monitor/) · [Code](https://github.com/huzaib123/personal-finance-anomaly-monitor) |
-| **AI Receptionist**: voice and text assistant routing 10+ customer intents | Python, LLM and speech APIs | [Live](https://www.bywadoo.life) · [Code](https://github.com/huzaib123/AI-receptionist) |
+| **AI Receptionist**: voice and text assistant routing 10+ customer intents | Python, LLM and speech APIs | [Demo](https://huzaib123.github.io/ai-receptionist/) · [Code](https://github.com/huzaib123/AI-receptionist) |
 | **Aksa Resorts**: responsive hospitality website | HTML, CSS, JavaScript | [Live](https://huzaib123.github.io/aksa-resorts/) |
 | **Firdoos**: mobile-first brand website | HTML, CSS | [Live](https://huzaib123.github.io/firdoos/) |
 | **GPA Calculator**: interactive student tool | HTML, CSS, JavaScript | [Live](https://huzaib123.github.io/gpa-calculator/) · [Code](https://github.com/huzaib123/gpa-calculator) |
@@ -115,7 +115,7 @@ const huzaib = {
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-**Let's build something.** [huzaibqayoom@gmail.com](mailto:huzaibqayoom@gmail.com) · [bywadoo.life](https://www.bywadoo.life)
+**Let's build something.** [huzaibqayoom@gmail.com](mailto:huzaibqayoom@gmail.com) · [bywadoo.life](https://bywadoo.life)
 
 ![Profile views](https://komarev.com/ghpvc/?username=huzaib123&style=flat-square&color=22d3ee)
 
