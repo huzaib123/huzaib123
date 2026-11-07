@@ -104,11 +104,11 @@ const huzaib = {
 #### Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#4](https://github.com/huzaib123/huzaib123/pull/4) in [huzaib123/huzaib123](https://github.com/huzaib123/huzaib123)
-2. 💪 Opened PR [#4](https://github.com/huzaib123/huzaib123/pull/4) in [huzaib123/huzaib123](https://github.com/huzaib123/huzaib123)
-3. 🎉 Merged PR [#3](https://github.com/huzaib123/huzaib123/pull/3) in [huzaib123/huzaib123](https://github.com/huzaib123/huzaib123)
-4. 💪 Opened PR [#3](https://github.com/huzaib123/huzaib123/pull/3) in [huzaib123/huzaib123](https://github.com/huzaib123/huzaib123)
-5. 🎉 Merged PR [#2](https://github.com/huzaib123/huzaib123/pull/2) in [huzaib123/huzaib123](https://github.com/huzaib123/huzaib123)
+1. 🎉 Merged PR [#3](https://github.com/dKirmani-Kavriqon/kavriqon-website/pull/3) in [dKirmani-Kavriqon/kavriqon-website](https://github.com/dKirmani-Kavriqon/kavriqon-website)
+2. 💪 Opened PR [#3](https://github.com/dKirmani-Kavriqon/kavriqon-website/pull/3) in [dKirmani-Kavriqon/kavriqon-website](https://github.com/dKirmani-Kavriqon/kavriqon-website)
+3. 🎉 Merged PR [#2](https://github.com/dKirmani-Kavriqon/kavriqon-website/pull/2) in [dKirmani-Kavriqon/kavriqon-website](https://github.com/dKirmani-Kavriqon/kavriqon-website)
+4. 💪 Opened PR [#2](https://github.com/dKirmani-Kavriqon/kavriqon-website/pull/2) in [dKirmani-Kavriqon/kavriqon-website](https://github.com/dKirmani-Kavriqon/kavriqon-website)
+5. 🎉 Merged PR [#1](https://github.com/dKirmani-Kavriqon/kavriqon-website/pull/1) in [dKirmani-Kavriqon/kavriqon-website](https://github.com/dKirmani-Kavriqon/kavriqon-website)
 <!--END_SECTION:activity-->
 
 <div align="center">
