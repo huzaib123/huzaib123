@@ -104,11 +104,11 @@ const huzaib = {
 #### Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#3](https://github.com/dKirmani-Kavriqon/AbzariParisPerfumes/pull/3) in [dKirmani-Kavriqon/AbzariParisPerfumes](https://github.com/dKirmani-Kavriqon/AbzariParisPerfumes)
-2. 💪 Opened PR [#3](https://github.com/dKirmani-Kavriqon/AbzariParisPerfumes/pull/3) in [dKirmani-Kavriqon/AbzariParisPerfumes](https://github.com/dKirmani-Kavriqon/AbzariParisPerfumes)
-3. 🎉 Merged PR [#2](https://github.com/dKirmani-Kavriqon/AbzariParisPerfumes/pull/2) in [dKirmani-Kavriqon/AbzariParisPerfumes](https://github.com/dKirmani-Kavriqon/AbzariParisPerfumes)
-4. ℹ️ Assigned PR [#2](https://github.com/dKirmani-Kavriqon/AbzariParisPerfumes/pull/2) in [dKirmani-Kavriqon/AbzariParisPerfumes](https://github.com/dKirmani-Kavriqon/AbzariParisPerfumes)
-5. 💪 Opened PR [#2](https://github.com/dKirmani-Kavriqon/AbzariParisPerfumes/pull/2) in [dKirmani-Kavriqon/AbzariParisPerfumes](https://github.com/dKirmani-Kavriqon/AbzariParisPerfumes)
+1. 🎉 Merged PR [#4](https://github.com/dKirmani-Kavriqon/CashwayTourism/pull/4) in [dKirmani-Kavriqon/CashwayTourism](https://github.com/dKirmani-Kavriqon/CashwayTourism)
+2. 💪 Opened PR [#4](https://github.com/dKirmani-Kavriqon/CashwayTourism/pull/4) in [dKirmani-Kavriqon/CashwayTourism](https://github.com/dKirmani-Kavriqon/CashwayTourism)
+3. 🎉 Merged PR [#3](https://github.com/dKirmani-Kavriqon/CashwayTourism/pull/3) in [dKirmani-Kavriqon/CashwayTourism](https://github.com/dKirmani-Kavriqon/CashwayTourism)
+4. 💪 Opened PR [#3](https://github.com/dKirmani-Kavriqon/CashwayTourism/pull/3) in [dKirmani-Kavriqon/CashwayTourism](https://github.com/dKirmani-Kavriqon/CashwayTourism)
+5. 🎉 Merged PR [#2](https://github.com/dKirmani-Kavriqon/CashwayTourism/pull/2) in [dKirmani-Kavriqon/CashwayTourism](https://github.com/dKirmani-Kavriqon/CashwayTourism)
 <!--END_SECTION:activity-->
 
 <div align="center">
