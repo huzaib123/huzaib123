@@ -104,11 +104,11 @@ const huzaib = {
 #### Recent activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#9](https://github.com/dKirmani-Kavriqon/CashwayTourism/pull/9) in [dKirmani-Kavriqon/CashwayTourism](https://github.com/dKirmani-Kavriqon/CashwayTourism)
-2. 🎉 Merged PR [#7](https://github.com/dKirmani-Kavriqon/CashwayTourism/pull/7) in [dKirmani-Kavriqon/CashwayTourism](https://github.com/dKirmani-Kavriqon/CashwayTourism)
-3. 🎉 Merged PR [#8](https://github.com/dKirmani-Kavriqon/CashwayTourism/pull/8) in [dKirmani-Kavriqon/CashwayTourism](https://github.com/dKirmani-Kavriqon/CashwayTourism)
-4. 💪 Opened PR [#8](https://github.com/dKirmani-Kavriqon/CashwayTourism/pull/8) in [dKirmani-Kavriqon/CashwayTourism](https://github.com/dKirmani-Kavriqon/CashwayTourism)
-5. 💪 Opened PR [#7](https://github.com/dKirmani-Kavriqon/CashwayTourism/pull/7) in [dKirmani-Kavriqon/CashwayTourism](https://github.com/dKirmani-Kavriqon/CashwayTourism)
+1. 🎉 Merged PR [#4](https://github.com/huzaib123/huzaib123/pull/4) in [huzaib123/huzaib123](https://github.com/huzaib123/huzaib123)
+2. 💪 Opened PR [#4](https://github.com/huzaib123/huzaib123/pull/4) in [huzaib123/huzaib123](https://github.com/huzaib123/huzaib123)
+3. 🎉 Merged PR [#3](https://github.com/huzaib123/huzaib123/pull/3) in [huzaib123/huzaib123](https://github.com/huzaib123/huzaib123)
+4. 💪 Opened PR [#3](https://github.com/huzaib123/huzaib123/pull/3) in [huzaib123/huzaib123](https://github.com/huzaib123/huzaib123)
+5. 🎉 Merged PR [#2](https://github.com/huzaib123/huzaib123/pull/2) in [huzaib123/huzaib123](https://github.com/huzaib123/huzaib123)
 <!--END_SECTION:activity-->
 
 <div align="center">
